@@ -1,21 +1,28 @@
 name: "learn.rinpharma.com"
 title: "learn.rinpharma.com"
+theme: theme.css
 description: |
   learn.rinpharma.com
 output_dir: "_site"
 navbar:
   logo:
-    image: images/rinpharmalearn.png
+    image: images/rinpharmalearn2.png
     href: https://www.rinpharma.com
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Ask RinPharma"
+      href: askrinpharma.html
+    - text: "Submissions"
+      href: submissions.html      
     - text: "Task Forces"
       menu:
         - text: "Shiny for Submissions"
           href: shiny4submissions.html
+        - text: "Pharma R Admin"
+          href: pharmaradmin.html
     - text:  "Conf Workshops"
       menu:
         - text: "2020"
